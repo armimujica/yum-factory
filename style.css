@@ -6,30 +6,28 @@ rgb(226,243,243)
 */
 
 /* Start*/
-{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-  }
-  
-  
-  /* nav and hero will start here  /
-  
-  
-  
-  / nav and hero  will end here  /
-  
-  
-  / main card section start here /
-  
-  
-  / main card section will end here  /
-  
-  / main meet-our-team section  will start here  /
-  
-  / main meet-our-team section  will end here  /
-  
-  
-  / footer will start here  /
-  
-  / footer will end here  */
+    font-family: "Frank Ruhl Libre", serif;
+}
+
+/* nav and hero will start here  */
+
+/* nav and hero  will end here  */
+
+/* main card section start here */
+.sectionForCards {
+    background-color: rgb(221, 247, 227);
+}
+
+/* main card section will end here  */
+
+/* main meet-our-team section  will start here  */
+
+/* main meet-our-team section  will end here */
+
+/* footer will start here  */
+
+/* footer will end here  */
