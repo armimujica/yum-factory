@@ -1,0 +1,18 @@
+
+header {
+    display: flex;
+    
+}
+
+
+.bgkheader {
+    display: flex;
+    background-image: url(/img/bgk-header.jpeg);
+    width: 80%;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    width: 80px;
+    
