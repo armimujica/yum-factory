@@ -21,6 +21,15 @@ rgb(226,243,243)
 .sectionForCards {
     background-color: rgb(221, 247, 227);
 }
+.timerImg {
+    max-height: 2rem;
+    width: auto;
+}
+
+.cardLinks:hover {
+    box-shadow: 0 0px 4px rgb(255, 94, 0);
+    cursor: pointer;
+}
 
 /* main card section will end here  */
 
