@@ -23,12 +23,95 @@ rgb(226,243,243)
 }
 .timerImg {
     max-height: 2rem;
-    width: auto;
+    max-width: auto;
+}
+.starImg {
+    max-height: 2rem;
+    max-width: auto;
 }
 
+/* .cardLinks {
+        max-height: 90%;
+        max-width: 90%;
+    } */
+
+/* .horizontalCard {
+        max-height: 40%;
+        max-width: 100%;
+    }
+    .verticalCard {
+        min-height: 82.5%;
+        /* max-width: 100%; 
+    } */
 .cardLinks:hover {
     box-shadow: 0 0px 4px rgb(255, 94, 0);
-    cursor: pointer;
+}
+h5:hover {
+    font-weight: 600;
+    color: rgb(95, 139, 80);
+}
+
+@media (max-width: 768px) {
+    /* Apply styles for XS screens */
+    .equal-card-height {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        width: 100%;
+        max-height: 500px;
+
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .mainRow {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        gap: 3;
+    }
+    .equal-card-height img {
+        max-height: 50%;
+        min-width: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    .timerImg {
+        max-height: 1rem;
+        max-width: auto;
+    }
+    .starImg {
+        max-height: 1rem;
+        max-width: auto;
+    }
+    .VerticalTimerDiv {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .HorizontalTimerDiv {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+    }
+}
+@media (max-width: 1400px) {
+    .timerImg {
+        max-height: 1rem;
+        max-width: auto;
+    }
+    .starImg {
+        max-height: 1.5rem;
+        max-width: auto;
+    }
 }
 
 /* main card section will end here  */
