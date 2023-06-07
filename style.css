@@ -6,17 +6,69 @@ rgb(226,243,243)
 */
 
 /* Start*/
-{
+body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    height:100vh;
+
+  }
+
+  .fw-bold {
+    font-family: 'Frank Ruhl Libre', serif;
+    color:#B3C890;
+    text-shadow: 2px 2px 4px;
+    
+  }
+  .linkdeco {
+    text-decoration: none;
+  }
+
+
+
+  .lead {
+    font-family:  serif;
+  }
+
+  .navbar {
+    font-family:'Frank Ruhl Libre', serif ;
+    font-size: 10px;
+    position: relative;
   }
   
+.logo { 
   
-  /* nav and hero will start here  /
-  
-  
-  
+    position:absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+}
+
+.d-flex {
+    flex: 0 0 25%;
+    
+
+.form-control {
+    font-size: 10px;
+}
+.btn {
+    font-size: 10px; 
+}
+
+/* HERO SECTION!!! */
+.heroCover {
+    position:absolute;
+    top:0;
+    background-size: cover;
+    width: 100%;
+  height: auto;
+}
+
+
+
+
+  /*
   / nav and hero  will end here  /
   
   
