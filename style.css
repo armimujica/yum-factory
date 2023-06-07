@@ -52,23 +52,35 @@ h5:hover {
 }
 
 @media (max-width: 768px) {
-    /* Apply styles for XS screens */
     .equal-card-height {
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: start;
-        width: 100%;
+        max-width: 500px;
         max-height: 500px;
-
         object-fit: cover;
         overflow: hidden;
+    }
+    .verticalCard img {
+        width: 100%;
+        height: 50%;
+    }
+    .HorizontalCardImg {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .HorizontalCardImg img {
+        width: 100%;
+        height: 100%;
     }
     .mainRow {
         display: flex;
         flex-direction: column;
         /* flex-wrap: wrap; */
-        gap: 3;
+        gap: 3 !important;
     }
     .equal-card-height img {
         max-height: 50%;
