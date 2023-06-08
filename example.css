@@ -199,5 +199,18 @@ h5:hover {
 /* main meet-our-team section  will end here */
 
 /* footer will start here  */
+.logo-footer {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
 
+footer button {
+    background-color: rgb(95, 139, 80);
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+        rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+        rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+        rgba(44, 187, 99, 0.15) 0 16px 32px;
+    padding: 1rem;
+}
 /* footer will end here  */
