@@ -30,6 +30,15 @@
     border: 0.3rem solid rgb(95, 139, 80);
     background-color: white;
 }
+
+.endprawns {
+    display: flex;
+    width: 400px; /* Set the desired width */
+    height: auto; /* Let the height adjust proportionally */
+    
+  }
+
+
 /* .FinalImg {
     max-width: 70%;
 } */
