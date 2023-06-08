@@ -307,11 +307,46 @@ h5:hover {
     /* main meet-our-team section  will end here  */
   
   
-  /* footer will start here  */
+
+
+  /* nav and hero will start here  */
+
   
   /* footer will end here  */
 
 
   
+<<<<<<< HEAD
 
 
+=======
+  
+  /* nav and hero  will end here  */
+  
+  
+  /* main card section start here */
+  
+  
+  /* main card section will end here  */
+  
+  /* main meet-our-team section  will start here  */
+  
+  /* main meet-our-team section  will end here  */
+  
+  
+  /* footer will start here  */
+.logo-bottom {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+
+ .btn-footer{
+ 
+  background-color:rgb(95, 139, 80);
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  padding: 1rem;
+}
+
+  /* footer will end here  */
