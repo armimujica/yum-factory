@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Frank Ruhl Libre", serif;
+}
+
+
+.navbar {
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 18px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.form-control {
+    font-size: 10px;
+}
+
+.btn {
+    font-size: 10px;
+}
+
+.greyDots {
+    height: 30px;
+    min-width: 30px;
+    text-align: center;
+    background-color: rgb(221, 247, 227);
+    color: rgb(95, 139, 80);
+}
+
+.IngImg {
+    height: 40px;
+}
+
+.firstpic {
+width: 80%;
+z-index: -1;
+}
+
+.secondpic {
+    height: 30rem;
+    z-index: -1;
+}
+
+.HeaderBody {
+    top: 25rem;
+}
+
+.HeaderCard {
+    border: 0.3rem solid rgb(95, 139, 80);
+        background-color: white;
+        position: relative;
+        top: 10rem;
+}
+
+.containerIngredients {
+    padding-top: 140px;
+}
+
+.Footerlogo {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.FooterButton {
+    background-color: rgb(95, 139, 80);
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    padding: 1rem;
+}
+
+footer {
+    margin-top: 10rem;
+}
+

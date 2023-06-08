@@ -13,23 +13,53 @@ rgb(226,243,243)
   }
   
   
-  /* nav and hero will start here  /
+  /* nav and hero will start here  */
   
   
   
-  / nav and hero  will end here  /
+  /* nav and hero  will end here  */
   
   
-  / main card section start here /
+  /* main card section start here */
   
   
-  / main card section will end here  /
+  /* main card section will end here  */
   
-  / main meet-our-team section  will start here  /
+  /* main meet-our-team section  will start here  */
   
-  / main meet-our-team section  will end here  /
+
+.TeamContainerHeading {
+  font-family: "Frank Ruhl Libre", serif;
+  color: rgb(44, 138, 3);
+}
+
+.text-section {
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+.team {
+  background-color: white;
+  padding: 70px;
+}
+
+.ImgUs {
+  width: 100px;
+}
+
+.CardUs {
+  background-color: rgb(221, 247, 227);
+}
+
+  /* main meet-our-team section  will end here  */
   
   
-  / footer will start here  /
+  /* footer will start here  */
   
-  / footer will end here  */
+  /* footer will end here  */
+
+ 
+
+
+  
+
+
