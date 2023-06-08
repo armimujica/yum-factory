@@ -6,7 +6,7 @@ rgb(226,243,243)
 */
 
 /* Start*/
-{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -50,14 +50,12 @@ rgb(226,243,243)
   background-color: rgb(221, 247, 227);
 }
 
-  /* main meet-our-team section  will end here  */
+    /* main meet-our-team section  will end here  */
   
   
   /* footer will start here  */
   
   /* footer will end here  */
-
- 
 
 
   
