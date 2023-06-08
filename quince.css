@@ -7,15 +7,15 @@
 }
 
 .greyDots {
-    height: 2.2rem;
-    width: 2.2rem;
+    height: 2.3rem;
+    width: 2.3rem;
     text-align: center;
     background-color: rgb(221, 247, 227);
     color: rgb(95, 139, 80);
 }
 
 .IngridientImg {
-    height: 5rem;
+    height: 4.8rem;
 }
 .TopImg {
     width: 80%;
@@ -28,4 +28,8 @@
 .HeaderCard {
     border: 0.3rem solid rgb(95, 139, 80);
     background-color: white;
+}
+
+.BorderDiv {
+    border: 0.1rem solid rgb(95, 139, 80);
 }
