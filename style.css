@@ -302,37 +302,13 @@ h5:hover {
     background-color: rgb(221, 247, 227);
 }
 
-/* main meet-our-team section  will end here  */
-
-/* nav and hero will start here  */
-
-/* footer will end here  */
-
-<<<<<<< HEAD
-
-
-=======
-  
-  /* nav and hero  will end here  */
-  
-  
-  /* main card section start here */
-  
-  
-  /* main card section will end here  */
-  
-  /* main meet-our-team section  will start here  */
-  
-  /* main meet-our-team section  will end here  */
-  
-  
-  /* footer will start here  */
+/* footer will start here  */
 .logo-bottom {
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
 
-.btn-footer {
+.btn-bottom {
     background-color: rgb(95, 139, 80);
     border-radius: 100px;
     box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
@@ -340,6 +316,19 @@ h5:hover {
         rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
         rgba(44, 187, 99, 0.15) 0 16px 32px;
     padding: 1rem;
+    margin-top: 1rem;
 }
 
+.btn-bottom:hover {
+    background-color: lightgreen;
+}
+
+.container-bottom {
+    padding-top: 1rem;
+    font-family: "Frank Ruhl Libre", serif;
+}
+
+.first-column-bottom {
+    overflow: hidden;
+}
 /* footer will end here  */
