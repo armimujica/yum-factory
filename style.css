@@ -307,6 +307,17 @@ h5:hover {
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
+.card-text {
+  color: black;
+  text-shadow: 1px 0 0 white
+}
+
+    /* main meet-our-team section  will end here  */
+  
+  
+  /* footer will start here  */
+  
+  /* footer will end here  */
 
 .btn-bottom {
     background-color: rgb(95, 139, 80);
