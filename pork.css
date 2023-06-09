@@ -23,6 +23,8 @@
     z-index: -1;
    height: 30%; 
    padding-top: 2rem;
+   max-height: 600px;
+   min-width: 60%;
 }
 .HeaderBody {
     top: 20rem;
