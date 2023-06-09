@@ -5,7 +5,6 @@
     font-family: "Frank Ruhl Libre", serif;
 }
 
-
 .navbar {
     font-family: "Frank Ruhl Libre", serif;
     font-size: 18px;
@@ -42,8 +41,8 @@
 .firstpic {
     width: 80%;
     z-index: -1;
-    height: 30rem;
-    top: -10rem;
+    /* height: 38rem; */
+    top: -15rem;
 }
 
 .secondpic {
@@ -79,7 +78,10 @@
 .btn-bottom {
     background-color: rgb(95, 139, 80);
     border-radius: 100px;
-    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+        rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+        rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+        rgba(44, 187, 99, 0.15) 0 16px 32px;
     padding: 1rem;
     margin-top: 1rem;
 }
