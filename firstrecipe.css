@@ -16,6 +16,8 @@
 
 .IngridientImg {
     height: 4.8rem;
+    
+    
 }
 .TopImg {
     
@@ -31,10 +33,11 @@
     background-color: white;
 }
 
-.endprawns {
+.finalImage {
     display: flex;
-    width: 400px; /* Set the desired width */
-    height: auto; /* Let the height adjust proportionally */
+    width: 400px; 
+    height: auto;
+    margin-top: 15rem;
     
   }
 
