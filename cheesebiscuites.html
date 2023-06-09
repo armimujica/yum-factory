@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="cheesebuscuits.css" />
+    <link rel="stylesheet" href="cheesebuscuits.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Montserrat&display=swap"
       rel="stylesheet"
@@ -21,7 +21,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-white">
+ <nav class="navbar navbar-expand-lg bg-body-white">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
           <button
@@ -54,10 +54,18 @@
                   Recipes
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Recipes 1</a></li>
-                  <li><a class="dropdown-item" href="#">Recipes 2</a></li>
-                  <li><a class="dropdown-item" href="#">Recipes 3</a></li>
-                  <li><a class="dropdown-item" href="#">Recipes 4</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./cheesebiscuites.html">Bulgarian Cheese Biscuits</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./recipeindex.html">Norwegian Poeached Prawns</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pork.html">German Roast Pork</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./quince-dessert.html">Turkish Quince Dessert</a>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -82,11 +90,21 @@
         <a href="https://www.google.com"
           ><img
             class="d-inline-block align-self-center"
-            width="110rem"
-            src="./img/logoblack.png"
+            width="200rem"
+            src="./logoblack1.png"
             alt="logo"
         /></a>
       </div>
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="./img/bgk-header2.jpg"
+              class="d-block mx-lg-auto img-fluid"
+              alt=""
+              loading="lazy"
+            />
+          </div>
     </header>
     <main>
       <section>
@@ -206,7 +224,7 @@
                   class="col-md-6 d-flex align-items-center justify-content-start gap-3"
                 >
                   <img
-                    src="./img/Salt.jpg"
+                    src="./img/SaltSirenki.jpg"
                     alt="salt"
                     class="rounded-circle IngImg"
                   />
@@ -320,34 +338,34 @@
               </div>
             </div>
             <div class="d-flex align-items-center justify-content-center">
-              <img
-                src="./img/960-540-vkusnoteka.jpg"
-                alt="sirenki"
-                class="secondpic"
-              />
+              <img src="./img/sirenki22.jpg" alt="sirenki" class="secondpic" />
             </div>
             <!-- end of instructions section-->
           </div>
         </div>
       </section>
     </main>
-    <div class="container my-5">
+    <div class="container-fluid footerContainer">
       <!-- Footer -->
       <footer
         class="text-center text-lg-start text-dark"
         style="background-color: rgb(221, 247, 227)"
       >
         <!-- Section: Links  -->
-        <section class="">
-          <div class="container text-center text-md-start mt-5">
+        <section class="left">
+          <div
+            class="container-fluid text-center text-md-start mt-5 container-bottom"
+          >
             <!-- Grid row -->
             <div class="row mt-3">
               <!-- Grid column -->
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <div
+                class="col 12 col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 first-column-bottom"
+              >
                 <!-- Content -->
-                <div class="logo text-center">
+                <div class="logo-bottom text-center">
                   <img
-                    class="d-inline-block align-self-start FooterLogo"
+                    class="d-inline-block align-self-start logo-bottom"
                     height="100rem"
                     ;
                     padding="2rem"
@@ -358,13 +376,13 @@
                 </div>
 
                 <form action="#">
-                  <div class="d-inline-block">
+                  <div class="d-inline-block form-bottom">
                     <input
                       type="text"
                       name="EmailAdress"
                       placeholder="Enter your email"
                     />
-                    <button class="FooterButton">
+                    <button class="btn-bottom">
                       Sign up for our newsletter
                     </button>
                   </div>
@@ -381,13 +399,13 @@
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
                 <p>
-                  <a href="#!" class="text-dark">Home</a>
+                  <a href="#header" class="text-dark">Home</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-dark">Meet the team</a>
+                  <a href="#team" class="text-dark">Meet the team</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-dark">Recipes</a>
+                  <a href="#SectionForCards" class="text-dark">Recipes</a>
                 </p>
               </div>
               <!-- Grid column -->
@@ -416,7 +434,9 @@
               <!-- Grid column -->
 
               <!-- Grid column -->
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <div
+                class="col-12 col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"
+              >
                 <!-- Links -->
                 <h6 class="text-uppercase fw-bold">Contact</h6>
                 <hr
@@ -438,3 +458,4 @@
     </div>
   </body>
 </html>
+
